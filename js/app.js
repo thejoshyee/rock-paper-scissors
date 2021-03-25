@@ -50,11 +50,11 @@ function game(player, computer) {
 
     if (playerScore === 5) {
         let message = document.getElementById('modal-text').innerHTML =
-         '<img class="crown" src="/images/crown.png">You are the Champion of all nations and computers!';
+         '<img class="crown" src="https://raw.githubusercontent.com/thejoshyee/rock-paper-scissors/main/images/crown.png">You are the Champion of all nations and computers!';
         modal.style.display = "block";
     } else if (computerScore === 5) {
         let message = document.getElementById('modal-text').innerHTML = 
-        '<img class="crown" src="/images/computer.png"> Bow to the almighty Computer! You lose human! Muahahaha!';
+        '<img class="crown" src="https://raw.githubusercontent.com/thejoshyee/rock-paper-scissors/main/images/computer.png"> Bow to the almighty Computer! You lose human! Muahahaha!';
         modal.style.display = "block";
     } else {
         return 0;
