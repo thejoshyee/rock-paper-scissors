@@ -1,7 +1,7 @@
 body {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    background: url(https://thejoshyee.github.io/rock-paper-scissors/images/arena.png) no-repeat center center fixed; 
+    background: url(https://raw.githubusercontent.com/thejoshyee/rock-paper-scissors/main/images/arena.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
