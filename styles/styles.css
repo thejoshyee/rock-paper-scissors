@@ -144,6 +144,7 @@ main {
     width: auto;
     border: none;
     background-color: rgb(172, 172, 172);
+    outline: none;
 }
 
 #paper {
@@ -156,6 +157,7 @@ main {
     width: auto;
     border: none;
     background-color: rgb(172, 172, 172);
+    outline: none;
 }
 
 #scissors {
@@ -169,7 +171,7 @@ main {
     width: auto;
     border: none;
     background-color: rgb(172, 172, 172);
-
+    outline: none;
 }
 
 .yourScore {
@@ -193,9 +195,6 @@ main {
     color: red;
 }
 
-#rock:focus, #paper:focus, #scissors:focus {
-    outline: 0;
-}
 
 
 
