@@ -144,8 +144,6 @@ main {
     width: auto;
     border: none;
     background-color: rgb(172, 172, 172);
-
-
 }
 
 #paper {
@@ -205,4 +203,52 @@ main {
     }
 
 
+}
+
+@media (max-width: 606px ) {
+    h1 {
+        display: block;
+        font-size: 40px;
+
+    }
+
+    h2 {
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    #scores {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #computerScore, #playerScore,{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .yourScore, .computerScore  {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+
+    #paper, #rock, #scissors {
+        font-size: 17px;
+        text-align: center;
+        width: auto;
+        margin: 5px;
+    }
+
+    #weapons {
+        padding: 0;
+    }
+
+    .question {
+        font-size: 18px;
+        margin-top: 0px;
+    }
 }
