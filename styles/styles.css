@@ -193,7 +193,7 @@ main {
     color: red;
 }
 
-button:focus {
+#rock:focus, #paper:focus, #scissors:focus {
     outline: 0;
 }
 
