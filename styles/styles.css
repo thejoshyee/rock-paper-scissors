@@ -135,7 +135,7 @@ main {
 }
 
 #rock {
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(255, 255, 255);
     /* -webkit-text-stroke: 1px black; */
     margin: 25px;
@@ -147,7 +147,7 @@ main {
 }
 
 #paper {
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(255, 255, 255);
     /* -webkit-text-stroke: 1px black; */
     margin: 25px;
@@ -160,7 +160,7 @@ main {
 
 #scissors {
 
-    font-size: 2rem;
+    font-size: 3rem;
     color: rgb(255, 255, 255);
     /* -webkit-text-stroke: 1px black; */
     margin: 25px;
@@ -193,16 +193,17 @@ main {
     color: red;
 }
 
+button:focus {
+    outline: 0;
+}
 
 
 
-@media (min-width: 900px) {
+@media (min-width: 1040px) {
     .buttons {
         display: flex;
         flex-direction: row;
     }
-
-
 }
 
 @media (max-width: 606px ) {
